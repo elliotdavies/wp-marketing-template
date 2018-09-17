@@ -1,0 +1,36 @@
+/*
+Theme Name: Marketing
+Theme URI: https://github.com/elliotdavies/wp-marketing-template/
+Author: Elliot Davies
+Author URI: https://elliotdavies.co.uk
+Description: Simple marketing template
+Version: 0.0.1
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 11px;
+}
