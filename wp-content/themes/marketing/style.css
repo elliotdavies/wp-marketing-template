@@ -9,6 +9,7 @@ Version: 0.0.1
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #f6f6f6;
 }
 
 h1 {
@@ -33,4 +34,28 @@ h5 {
 
 h6 {
   font-size: 11px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#header, #header + hr {
+  display: none;
+}
+
+#page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+main {
+  
+  overflow: hidden;
+}
+
+main + hr, #footer {
+  display: none;
 }
