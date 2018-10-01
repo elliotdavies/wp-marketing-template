@@ -51,9 +51,27 @@ h6 {
   background-color: #fff;
 }
 
-main {
-  
+main { 
   overflow: hidden;
+}
+
+main table {
+  margin: 0 auto;
+}
+
+main img.alignleft {
+  float: left;
+  padding: 0 15px 15px 0;
+  max-width: 100%;
+}
+main img.aligncenter {
+  margin: 0 auto;
+  max-width: 100%;
+}
+main img.alignright {
+  float: right;
+  padding: 0 0 15px 15px;
+  max-width: 100%;
 }
 
 main + hr, #footer {
